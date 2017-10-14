@@ -5,26 +5,25 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkB-B", "ParkB-B\ParkB-B.csproj", "{A11BC459-818A-40FB-A5BE-A54039A881A6}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ParkBnbService", "..\..\WebSites\ParkBnbService\", "{68EB3EFA-0B45-48FD-9969-86C45C11C97C}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ParkBnbService", "ParkBnbService\", "{206B7D33-5D0D-450D-AA84-C23D4921F3BC}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
-		ProjectReferences = "{a11bc459-818a-40fb-a5be-a54039a881a6}|ParkB-B.dll;"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_51740"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\ParkBnbService\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51740\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54587"
+		Debug.AspNetCompiler.PhysicalPath = "ParkBnbService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54587\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_51740"
-		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\ParkBnbService\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51740\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54587"
+		Release.AspNetCompiler.PhysicalPath = "ParkBnbService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54587\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "51740"
-		SlnRelativePath = "..\..\WebSites\ParkBnbService\"
+		VWDPort = "54587"
+		SlnRelativePath = "ParkBnbService\"
 	EndProjectSection
 EndProject
 Global
@@ -37,10 +36,10 @@ Global
 		{A11BC459-818A-40FB-A5BE-A54039A881A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A11BC459-818A-40FB-A5BE-A54039A881A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A11BC459-818A-40FB-A5BE-A54039A881A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{68EB3EFA-0B45-48FD-9969-86C45C11C97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68EB3EFA-0B45-48FD-9969-86C45C11C97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{68EB3EFA-0B45-48FD-9969-86C45C11C97C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{68EB3EFA-0B45-48FD-9969-86C45C11C97C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{206B7D33-5D0D-450D-AA84-C23D4921F3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206B7D33-5D0D-450D-AA84-C23D4921F3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206B7D33-5D0D-450D-AA84-C23D4921F3BC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{206B7D33-5D0D-450D-AA84-C23D4921F3BC}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
