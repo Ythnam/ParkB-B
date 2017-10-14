@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace ParkB_B.Model
 {
-    class Model
+    public class Model
     {
         private List<Company> _companies;
 
