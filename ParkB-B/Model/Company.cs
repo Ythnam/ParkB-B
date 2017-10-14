@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ParkB_B.Model
 {
-    class Company
+    public class Company
     {
         private Parking _parking;
         private string _name;
@@ -13,6 +13,10 @@ namespace ParkB_B.Model
         public Company(string name)
         {
             this.Name = name;
+        }
+
+        public Company()
+        {
         }
 
         public Company(string name, Parking parking)

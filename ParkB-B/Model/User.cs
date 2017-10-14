@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ParkB_B.Model
 {
-    class User
+    public class User
     {
         private string _firstName;
         private string _lastName;
@@ -26,6 +26,10 @@ namespace ParkB_B.Model
             this.FirstName = fn;
             this.LastName = ln;
             this.Matriculation = matriculation;
+        }
+
+        public User()
+        {
         }
 
         public string FirstName

@@ -2,7 +2,7 @@
 
 namespace ParkB_B.Model
 {
-    class Contract
+    public class Contract
     {
         private DateTime _arrivedReservedDate;
         private DateTime _departureReservedDate;
@@ -17,6 +17,10 @@ namespace ParkB_B.Model
             this.ArriveRealDate = arriveRealDate;
             this.DepartureRealDate = departureRealDate;
             this.Price = price;
+        }
+
+        public Contract()
+        {
         }
 
         public Contract(DateTime arrivedReservedDate, DateTime departureReservedDate, double price)

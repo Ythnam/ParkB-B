@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ParkB_B.Model
 {
-    class Parking
+    public class Parking
     {
         private string _address;
         private int _numberOfPlaces;
@@ -20,6 +20,10 @@ namespace ParkB_B.Model
             this.NumberOfPlacesAvailable = nrPlaceAvail;
             this.Name = name;
             this.Users = new List<User>();
+        }
+
+        public Parking()
+        {
         }
 
         public void AddUser(User user)

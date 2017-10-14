@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ParkB_B.Model
 {
-    class Model
+    public class Model
     {
         private List<Company> _companies;
 
