@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkB-B", "ParkB-B\ParkB-B.
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ParkBnbService", "..\..\WebSites\ParkBnbService\", "{68EB3EFA-0B45-48FD-9969-86C45C11C97C}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		ProjectReferences = "{a11bc459-818a-40fb-a5be-a54039a881a6}|ParkB-B.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51740"
 		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\ParkBnbService\"
