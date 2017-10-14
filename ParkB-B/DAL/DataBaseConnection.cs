@@ -9,14 +9,59 @@ namespace ParkB_B.DAL
 {
     class DataBaseConnection
     {
-        public void Connect()
+        #region Properties
+        MySqlConnection connection = null;
+        public MySqlConnection Connection
         {
-            string add = "datasource=243b8f54-a2a4-4bc5-bbc4-0368ed6aacf2.parkpnp-4699.mysql.dbs.scalingo.com;";
-            string port = "port=31244;";
-            string user_name = "username=parkpnp_4699";
-            string pw = "password=YT1QP7Ult2t2tCOeTIol";
-            MySqlConnection connection = new MySqlConnection(add+port+"Initial Catalog='test';"+user_name+pw);
+            get { return connection; }
+        }
 
+        private string databaseName = string.Empty;
+        private string pw;
+        private string user_name;
+        private string port;
+        private string serverAdd;
+        #endregion
+
+        #region Constructor
+        private DataBaseConnection() { }
+
+        private static DataBaseConnection _instance = null;
+        public static DataBaseConnection Instance()
+        {
+            if (_instance == null)
+                _instance = new DataBaseConnection();
+            return _instance;
+        }
+        #endregion
+
+
+
+        public bool IsConnect()
+        {
+            bool result = true;
+            if (Connection == null)
+            {
+                if (String.IsNullOrEmpty(databaseName))
+                    result = false;
+
+                serverAdd = "Server=243b8f54-a2a4-4bc5-bbc4-0368ed6aacf2.parkpnp-4699.mysql.dbs.scalingo.com;";
+                port = "Port=31244;";
+                user_name = "Uid=parkpnp_4699;";
+                pw = "Pwd=YT1QP7Ult2t2tCOeTIol;";
+                databaseName = "Database = parkpnp_4699;";
+                connection = new MySqlConnection(serverAdd + port + databaseName + user_name + pw);
+                connection.Open();
+                result = true;
+            }
+
+            return result;
+        }
+
+
+        public void Close()
+        {
+            this.connection.Close();
         }
     }
 }
