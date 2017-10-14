@@ -5,9 +5,10 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkB-B", "ParkB-B\ParkB-B.csproj", "{A11BC459-818A-40FB-A5BE-A54039A881A6}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ParkBnbService", "ParkBnbService\", "{206B7D33-5D0D-450D-AA84-C23D4921F3BC}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ParkBnbService(1)", "ParkBnbService\", "{206B7D33-5D0D-450D-AA84-C23D4921F3BC}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{a11bc459-818a-40fb-a5be-a54039a881a6}|ParkB-B.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_54587"
 		Debug.AspNetCompiler.PhysicalPath = "ParkBnbService\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54587\"
