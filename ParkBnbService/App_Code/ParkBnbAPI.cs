@@ -46,5 +46,27 @@ public class ParkBnbAPI : System.Web.Services.WebService
         return list.Where(p=>p.Name.ToLower().Contains(name.ToLower())).ToList();
     }
 
+    [WebMethod]
+    public PriceResult GetPrice(int parkId, string arrival, string departure)
+    {
+        return new PriceResult()
+        {
+            parkName="",
+            arrival=DateTime.Parse(arrival),
+            departure=DateTime.Parse(departure),
+            price=4d
+        };
+    }
 
+
+}
+
+
+public class PriceResult
+{
+    public string parkName { get; set; }
+    public DateTime arrival { get; set; }
+    public DateTime departure { get; set; }
+    public double price { get; set; }
+    public PriceResult() { }
 }
