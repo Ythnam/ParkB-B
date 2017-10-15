@@ -7,6 +7,7 @@ namespace ParkB_B.Model
 {
     public class Parking
     {
+        private int _id;
         private string _address;
         private int _numberOfPlaces;
         private int _numberOfPlacesAvailable;
@@ -31,6 +32,11 @@ namespace ParkB_B.Model
             this.Users.Add(user);
         }
 
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
 
         public string Address
         {

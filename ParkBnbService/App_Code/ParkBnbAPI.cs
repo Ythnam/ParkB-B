@@ -21,10 +21,9 @@ public class ParkBnbAPI : System.Web.Services.WebService
     }
 
     [WebMethod]
-    public string GetAvailableSpot(int CarParkId)
+    public int GetAvailableSpot(int carParkId)
     {
-        int a = Test.TestInt();
-        return "You've chosen park number " + CarParkId.ToString() + a;
+        return ParkingManager.GetAvailableCount(carParkId);
     }
 
     [WebMethod]
