@@ -19,7 +19,7 @@ Copyright (C) Microsoft Corporation. Tous droits réservés.
     <ProjectGuid>{2defb93a-ca0c-42df-92b3-68960d714a3c}</ProjectGuid>
     <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
     <SourceWebVirtualPath>/ParkBnbService</SourceWebVirtualPath>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <SourceWebProject>
     </SourceWebProject>
     <SourceWebMetabasePath>
@@ -44,7 +44,7 @@ Copyright (C) Microsoft Corporation. Tous droits réservés.
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\repos\ParkB-B\ParkB-B\ParkB-B.csproj">
+    <ProjectReference Include="..\ParkB-B\ParkB-B.csproj">
       <Project>{A11BC459-818A-40FB-A5BE-A54039A881A6}</Project>
       <Name>ParkB-B</Name>
     </ProjectReference>

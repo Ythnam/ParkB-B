@@ -58,10 +58,13 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\ParkingManager.cs" />
     <Compile Include="BLL\Test.cs" />
+    <Compile Include="DAL\AbstractDAO.cs" />
+    <Compile Include="DAL\ContractDAO.cs" />
     <Compile Include="DAL\DataBaseConnection.cs" />
+    <Compile Include="DAL\ParkingDAO.cs" />
     <Compile Include="DAL\RequestData.cs" />
-    <Compile Include="DAO\AbstractDAO.cs" />
     <Compile Include="Model\Company.cs" />
     <Compile Include="Model\Contract.cs" />
     <Compile Include="Model\Model.cs" />
